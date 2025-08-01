@@ -1,0 +1,48 @@
+HTML Exercise 2 – Mini Portfolio Webpage
+
+Goal:
+Create a simple HTML portfolio page that introduces yourself with a heading, a short bio, skills, and a blog link using everything you've learned so far.
+
+Instructions:
+
+1. Start with Boilerplate Code
+   - Use the ! + tab shortcut to generate the basic structure.
+   - Give a proper title in the <title> tag (e.g., "Rahul Agarwal Portfolio").
+
+2. Add a Profile Picture
+   - Use the <img> tag at the top.
+   - Add alt text attribute.
+
+3. Create a Main Heading
+   - Use an <h1> tag to write your name.
+
+4. Add a Subheading
+   - Use an <h3> tag for your role (e.g., “Frontend Developer”).
+
+5. Write a Paragraph
+   - Add a small intro about yourself using the <p> tag.
+
+ Eg : Hello! My name is Rahul. I am a passionate frontend developer who loves to create beautiful and functional websites.
+ I enjoy working with technologies like HTML, CSS, and JavaScript.
+ I also create helpful tutorials on YouTube for beginners.
+
+6. List Your Skills
+   - Use a <ul> tag with at least 3 <li> items (HTML, CSS, JavaScript).
+
+7. Add a Blog Link
+   - Use an <a> tag linking to a blog or dummy site.
+   - It should open in a new tab using target="_blank".
+
+8. Add a Horizontal Line
+   - Use <hr> to separate sections.
+
+9. Write an "About Me" Section
+   - Use <h3> heading.
+   - In the <p> tag, use <em> to italicize and <strong> to bold some words.
+
+   eg : I love web development and always keep learning!
+
+10. Add Comments(optional)
+   - Use <!-- --> to label sections like:
+     <!-- Profile Section -->
+     <!-- Skills Section -->
