@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form part 2</title>
+</head>
+<body>
+    <h1>Forms Part 2</h1>
+    <form action="" method="GET">
+        <label>Gender :</label>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="">Skillset</label>
+        <input type="checkbox" name="skill" id="html" value="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" name="skill" id="css" value="css">
+        <label for="css">CSS</label>
+        <br> <br>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="in">India</option>
+            <option value="se">Sweden</option>
+            <option value="us">USA</option>
+        </select>
+        <br><br>
+
+        <label for="Feedback">Your Feedback: </label><br>
+        <textarea name="feedback" id="Feedback" rows="5" cols="50">Enter your feedback here</textarea>
+
+        <br><br>
+
+        <input type="text" required placeholder="This is mandatory">
+        <input type="text" disabled
+        placeholder="This is disable">
+        <input type="text" readonly placeholder="This is readonly">
+
+        <br><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
