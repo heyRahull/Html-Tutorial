@@ -1,0 +1,34 @@
+🔰 HTML Forms Exercise
+
+Create the following form based on the below requirements:
+
+Form UI Requirements:
+
+1. Name  
+   → Text input field  
+   → Required
+
+2. Email  
+   → Email input field  
+   → Required
+
+3. Gender  
+   → Radio buttons  
+   → Options: Male, Female, Other
+
+4. Country  
+   → Dropdown/select menu  
+   → Options: India, USA, UK
+
+5. Feedback  
+   → Multiline textarea input
+
+6. Terms & Conditions  
+   → Checkbox input  
+   → Label: “I agree to terms and conditions”  
+   → Required
+
+7. Submit Button  
+   → Submits the form data
+
+✅ Ensure all fields are properly labeled and use appropriate `id`, `name`, and `for` attributes for accessibility.

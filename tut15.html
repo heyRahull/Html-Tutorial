@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <h1>Feedback Form</h1>
+
+    <form action="submit.html" method="GET">
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <!-- Gender -->
+      Gender:
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <!-- Country -->
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="in">India</option>
+        <option value="us">USA</option>
+        <option value="uk">UK</option></select
+      ><br /><br />
+
+      <!-- Feedback -->
+      <label for="feedback">Feedback:</label><br />
+      <textarea id="feedback" name="feedback" rows="4" cols="30"></textarea
+      ><br /><br />
+
+      <!-- Terms Checkbox -->
+      <input type="checkbox" id="terms" name="terms" required />
+      <label for="terms">I agree to the terms and conditions</label><br /><br />
+
+      <!-- Submit -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
